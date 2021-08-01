@@ -13,6 +13,7 @@
 		B31A647126B6E0A40089BA29 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B31A647026B6E0A40089BA29 /* Preview Assets.xcassets */; };
 		B31A647C26B6E0A40089BA29 /* swiftUIAPICallsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A647B26B6E0A40089BA29 /* swiftUIAPICallsTests.swift */; };
 		B31A648726B6E0A40089BA29 /* swiftUIAPICallsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A648626B6E0A40089BA29 /* swiftUIAPICallsUITests.swift */; };
+		B31A649526B6E8B80089BA29 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B31A649426B6E8B80089BA29 /* ViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		B31A648226B6E0A40089BA29 /* swiftUIAPICallsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = swiftUIAPICallsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B31A648626B6E0A40089BA29 /* swiftUIAPICallsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swiftUIAPICallsUITests.swift; sourceTree = "<group>"; };
 		B31A648826B6E0A40089BA29 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B31A649426B6E8B80089BA29 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 			children = (
 				B31A646926B6E0A20089BA29 /* swiftUIAPICallsApp.swift */,
 				B31A646B26B6E0A20089BA29 /* ContentView.swift */,
+				B31A649426B6E8B80089BA29 /* ViewModel.swift */,
 				B31A646D26B6E0A40089BA29 /* Assets.xcassets */,
 				B31A647226B6E0A40089BA29 /* Info.plist */,
 				B31A646F26B6E0A40089BA29 /* Preview Content */,
@@ -260,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B31A646C26B6E0A20089BA29 /* ContentView.swift in Sources */,
+				B31A649526B6E8B80089BA29 /* ViewModel.swift in Sources */,
 				B31A646A26B6E0A20089BA29 /* swiftUIAPICallsApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
